@@ -1,0 +1,28 @@
+{
+  "name": "matchpool-atomic-swap",
+  "version": "1.0.0",
+  "description": "light implementation of atomic cross chain trading.",
+  "main": "test\t/atomic-swap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test test/atomic-swap.js"
+  },
+  "keywords": [
+    "Solidity",
+    "atomicswap-qtum",
+    "qtumjs",
+    "qtumd",
+    "truffle",
+    "web3",
+    "erc20"
+  ],
+  "author": "Or Demri",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "qtumjs": "^1.4.1",
+    "sha256": "^0.2.0"
+  }
+}
