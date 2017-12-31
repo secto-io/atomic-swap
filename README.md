@@ -1,5 +1,3 @@
-----
-
 # Matchpool generic atomic cross chain trading
 This repo contains utilities to manually perform cross-chain atomic swaps between Guppy and other currencies. Currently Qtum, Ethereum, and their erc20 based tokens are supported.
 
@@ -64,7 +62,6 @@ $ truffle test test/atomic-swap.js
 
 
 Contributions and issues are welcome.
-License
 ----
 
 
