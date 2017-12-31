@@ -38,7 +38,7 @@ $ npm install -g ethereumjs-testrpc
 ```
 **Install the repo**
 ```ssh
-$ git clone https://github.com/matchpool/genericswap && cd genericswap
+$ git clone https://github.com/Matchpool/atomic-swap-mp && cd atomic-swap-mp
 ```
 **Run ethereum testrpc**
 ```ssh
