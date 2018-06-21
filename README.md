@@ -1,19 +1,20 @@
-# Atomic cross chain trading
-This repo contains utilities to manually perform cross-chain atomic swaps between Guppy and other currencies. Currently Qtum, Ethereum, and their erc20 based tokens are supported.
+# Atomic Cross Chain Trading
+This repo contains utilities to manually perform cross-chain atomic swaps between Guppy and other erc20 currencies. Currently Qtum, Ethereum, and their erc20 based tokens are supported.
 
 ----
 
-# What is Atomic swap
+# What is atomic swap
 Atomic swaps, or atomic cross-chain trading, is the exchange of one cryptocurrency to
 another cryptocurrency, without the need to trust a third-party.
 A relatively new piece of technology, atomic cross-chain trading is looking to revolutionize the way in which users transact with each other.
 For example, if Alice owned one Qtum but wanted one Guppy instead, she would have to go through an exchange.
 However, with atomic swaps, if Bob owned one Guppy but wanted one Qtum instead, then Bob and Alice could make a trade.
 In order to prevent, for example, Alice accepting Bob’s one Guppy but then failing to send over her one Qtum, atomic swaps utilizes what is known as hash time-locked contracts (HTLCs).
+Hash time-locked contracts or HTLCs are integral to the design of more advanced payment channels such as those used by the Lightning Network.
 
 ----
 
-### First main-net GUP-Qtum atomic swap
+### First main-net ERC20-Qtum atomic swap
 
 | Description | Transaction |
 | ------ | ------ |
@@ -30,7 +31,7 @@ Pre-requirements:
 
  - node v8.4.0 or later
  - npm 5.6.0 or later
- - qtum-0.14.10
+ - qtum-0.14.10 or later
 
 **Install ethereum testrpc**
 ```sh
@@ -59,9 +60,6 @@ $ truffle test test/atomic-swap.js
 
  - Add support for other blockchains
  - Write MORE Tests
-
-
-Contributions and issues are welcome.
-----
+ 
 
 
