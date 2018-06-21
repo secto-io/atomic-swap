@@ -1,4 +1,4 @@
-# Matchpool generic atomic cross chain trading
+# Atomic cross chain trading
 This repo contains utilities to manually perform cross-chain atomic swaps between Guppy and other currencies. Currently Qtum, Ethereum, and their erc20 based tokens are supported.
 
 ----
@@ -38,7 +38,7 @@ $ npm install -g ethereumjs-testrpc
 ```
 **Install the repo**
 ```ssh
-$ git clone https://github.com/Matchpool/atomic-swap-mp && cd atomic-swap-mp
+$ git clone https://github.com/ordemri/atomic-swap-mp && cd atomic-swap-mp
 ```
 **Run ethereum testrpc**
 ```ssh
